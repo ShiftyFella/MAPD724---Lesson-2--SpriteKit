@@ -24,6 +24,7 @@
 		77CBC5B92020053900B22C5C /* GameObjectNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CBC5B82020053900B22C5C /* GameObjectNode.swift */; };
 		77CBC5BC2020092300B22C5C /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CBC5BB2020092300B22C5C /* GameProtocol.swift */; };
 		77CBC5BE202009BE00B22C5C /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CBC5BD202009BE00B22C5C /* Plane.swift */; };
+		77CBC5C22020132400B22C5C /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CBC5C12020132400B22C5C /* Ocean.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		77CBC5B82020053900B22C5C /* GameObjectNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObjectNode.swift; sourceTree = "<group>"; };
 		77CBC5BB2020092300B22C5C /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
 		77CBC5BD202009BE00B22C5C /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		77CBC5C12020132400B22C5C /* Ocean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				77CBC5B82020053900B22C5C /* GameObjectNode.swift */,
 				77CBC5BB2020092300B22C5C /* GameProtocol.swift */,
 				77CBC5BD202009BE00B22C5C /* Plane.swift */,
+				77CBC5C12020132400B22C5C /* Ocean.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 				77CBC599201FEBFF00B22C5C /* GameScene.swift in Sources */,
 				77CBC59B201FEBFF00B22C5C /* GameViewController.swift in Sources */,
 				77CBC593201FEBFF00B22C5C /* AppDelegate.swift in Sources */,
+				77CBC5C22020132400B22C5C /* Ocean.swift in Sources */,
 				77CBC5B6201FF97300B22C5C /* StartScene.swift in Sources */,
 				77CBC5BC2020092300B22C5C /* GameProtocol.swift in Sources */,
 				77CBC5BE202009BE00B22C5C /* Plane.swift in Sources */,

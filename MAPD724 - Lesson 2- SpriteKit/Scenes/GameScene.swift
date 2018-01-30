@@ -19,11 +19,17 @@ class GameScene: SKScene {
     
     //game vars
     var planeSprite: Plane?
+    var oceanSprite: Ocean?
     
     override func didMove(to view: SKView) {
         //
         screenHeight = screenSize.height
         screenWidth = screenSize.width
+        
+        //add ocean background
+        self.oceanSprite = Ocean()
+        self.addChild(oceanSprite!)
+        
         
         //add plane
         
@@ -88,6 +94,7 @@ class GameScene: SKScene {
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
+        self.oceanSprite?.Update()
         self.planeSprite?.Update()
     }
 }
