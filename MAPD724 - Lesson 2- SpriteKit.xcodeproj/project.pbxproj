@@ -15,6 +15,10 @@
 		77CBC59E201FEBFF00B22C5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CBC59C201FEBFF00B22C5C /* Main.storyboard */; };
 		77CBC5A0201FEBFF00B22C5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77CBC59F201FEBFF00B22C5C /* Assets.xcassets */; };
 		77CBC5A3201FEBFF00B22C5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CBC5A1201FEBFF00B22C5C /* LaunchScreen.storyboard */; };
+		77CBC5AD201FED3F00B22C5C /* engine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77CBC5AA201FED3F00B22C5C /* engine.mp3 */; };
+		77CBC5AE201FED3F00B22C5C /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77CBC5AB201FED3F00B22C5C /* yay.mp3 */; };
+		77CBC5AF201FED3F00B22C5C /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77CBC5AC201FED3F00B22C5C /* thunder.mp3 */; };
+		77CBC5B1201FEDA000B22C5C /* Dock51.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77CBC5B0201FED8100B22C5C /* Dock51.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		77CBC59F201FEBFF00B22C5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77CBC5A2201FEBFF00B22C5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77CBC5A4201FEBFF00B22C5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77CBC5AA201FED3F00B22C5C /* engine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = engine.mp3; sourceTree = "<group>"; };
+		77CBC5AB201FED3F00B22C5C /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
+		77CBC5AC201FED3F00B22C5C /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunder.mp3; sourceTree = "<group>"; };
+		77CBC5B0201FED8100B22C5C /* Dock51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dock51.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,10 @@
 				77CBC59F201FEBFF00B22C5C /* Assets.xcassets */,
 				77CBC5A1201FEBFF00B22C5C /* LaunchScreen.storyboard */,
 				77CBC5A4201FEBFF00B22C5C /* Info.plist */,
+				77CBC5AA201FED3F00B22C5C /* engine.mp3 */,
+				77CBC5AC201FED3F00B22C5C /* thunder.mp3 */,
+				77CBC5AB201FED3F00B22C5C /* yay.mp3 */,
+				77CBC5B0201FED8100B22C5C /* Dock51.ttf */,
 			);
 			path = "MAPD724 - Lesson 2- SpriteKit";
 			sourceTree = "<group>";
@@ -134,8 +146,12 @@
 			files = (
 				77CBC59E201FEBFF00B22C5C /* Main.storyboard in Resources */,
 				77CBC595201FEBFF00B22C5C /* GameScene.sks in Resources */,
+				77CBC5AE201FED3F00B22C5C /* yay.mp3 in Resources */,
+				77CBC5B1201FEDA000B22C5C /* Dock51.ttf in Resources */,
+				77CBC5AF201FED3F00B22C5C /* thunder.mp3 in Resources */,
 				77CBC5A0201FEBFF00B22C5C /* Assets.xcassets in Resources */,
 				77CBC5A3201FEBFF00B22C5C /* LaunchScreen.storyboard in Resources */,
+				77CBC5AD201FED3F00B22C5C /* engine.mp3 in Resources */,
 				77CBC597201FEBFF00B22C5C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
