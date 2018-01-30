@@ -19,6 +19,8 @@
 		77CBC5AE201FED3F00B22C5C /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77CBC5AB201FED3F00B22C5C /* yay.mp3 */; };
 		77CBC5AF201FED3F00B22C5C /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 77CBC5AC201FED3F00B22C5C /* thunder.mp3 */; };
 		77CBC5B1201FEDA000B22C5C /* Dock51.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77CBC5B0201FED8100B22C5C /* Dock51.ttf */; };
+		77CBC5B3201FF8B200B22C5C /* StartScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 77CBC5B2201FF8B200B22C5C /* StartScene.sks */; };
+		77CBC5B6201FF97300B22C5C /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CBC5B5201FF97300B22C5C /* StartScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		77CBC5AB201FED3F00B22C5C /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
 		77CBC5AC201FED3F00B22C5C /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunder.mp3; sourceTree = "<group>"; };
 		77CBC5B0201FED8100B22C5C /* Dock51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dock51.ttf; sourceTree = "<group>"; };
+		77CBC5B2201FF8B200B22C5C /* StartScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StartScene.sks; sourceTree = "<group>"; };
+		77CBC5B5201FF97300B22C5C /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +72,9 @@
 		77CBC591201FEBFF00B22C5C /* MAPD724 - Lesson 2- SpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				77CBC5B4201FF8BE00B22C5C /* Scenes */,
 				77CBC592201FEBFF00B22C5C /* AppDelegate.swift */,
-				77CBC594201FEBFF00B22C5C /* GameScene.sks */,
 				77CBC596201FEBFF00B22C5C /* Actions.sks */,
-				77CBC598201FEBFF00B22C5C /* GameScene.swift */,
 				77CBC59A201FEBFF00B22C5C /* GameViewController.swift */,
 				77CBC59C201FEBFF00B22C5C /* Main.storyboard */,
 				77CBC59F201FEBFF00B22C5C /* Assets.xcassets */,
@@ -83,6 +86,17 @@
 				77CBC5B0201FED8100B22C5C /* Dock51.ttf */,
 			);
 			path = "MAPD724 - Lesson 2- SpriteKit";
+			sourceTree = "<group>";
+		};
+		77CBC5B4201FF8BE00B22C5C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				77CBC5B2201FF8B200B22C5C /* StartScene.sks */,
+				77CBC594201FEBFF00B22C5C /* GameScene.sks */,
+				77CBC598201FEBFF00B22C5C /* GameScene.swift */,
+				77CBC5B5201FF97300B22C5C /* StartScene.swift */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +161,7 @@
 				77CBC59E201FEBFF00B22C5C /* Main.storyboard in Resources */,
 				77CBC595201FEBFF00B22C5C /* GameScene.sks in Resources */,
 				77CBC5AE201FED3F00B22C5C /* yay.mp3 in Resources */,
+				77CBC5B3201FF8B200B22C5C /* StartScene.sks in Resources */,
 				77CBC5B1201FEDA000B22C5C /* Dock51.ttf in Resources */,
 				77CBC5AF201FED3F00B22C5C /* thunder.mp3 in Resources */,
 				77CBC5A0201FEBFF00B22C5C /* Assets.xcassets in Resources */,
@@ -166,6 +181,7 @@
 				77CBC599201FEBFF00B22C5C /* GameScene.swift in Sources */,
 				77CBC59B201FEBFF00B22C5C /* GameViewController.swift in Sources */,
 				77CBC593201FEBFF00B22C5C /* AppDelegate.swift in Sources */,
+				77CBC5B6201FF97300B22C5C /* StartScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
