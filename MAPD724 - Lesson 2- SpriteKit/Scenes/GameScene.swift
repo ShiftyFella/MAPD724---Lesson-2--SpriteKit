@@ -8,31 +8,46 @@
 
 import SpriteKit
 import GameplayKit
+import UIKit
+import AVFoundation
+
+let screenSize = UIScreen.main.bounds
+var screenHeight: CGFloat?
+var screenWidth: CGFloat?
 
 class GameScene: SKScene {
     
+    //game vars
+    var planeSprite: Plane?
+    
     override func didMove(to view: SKView) {
         //
-        let helloLabel : SKLabelNode = self.childNode(withName: "helloLabel") as! SKLabelNode
-        let plane : SKSpriteNode = self.childNode(withName: "plane") as! SKSpriteNode
+        screenHeight = screenSize.height
+        screenWidth = screenSize.width
         
-        helloLabel.position.x = 0
-        helloLabel.position.y = 0
+        //add plane
         
-        plane.position = CGPoint(x: 150, y: 150)
+        self.planeSprite = Plane()
+        self.planeSprite?.position = CGPoint(x: screenWidth! * 0.5, y: 50)
+        self.addChild(planeSprite!)
+       
     }
     
     
     func touchDown(atPoint pos : CGPoint) {
        //
+        self.planeSprite?.TouchMove(newPosition: CGPoint(x: pos.x, y: 50))
     }
     
     func touchMoved(toPoint pos : CGPoint) {
         //
+         self.planeSprite?.TouchMove(newPosition: CGPoint(x: pos.x, y: 50))
+        
     }
     
     func touchUp(atPoint pos : CGPoint) {
        //
+        self.planeSprite?.TouchMove(newPosition: CGPoint(x: pos.x, y: 50))
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -55,5 +70,6 @@ class GameScene: SKScene {
     
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
+        self.planeSprite?.Update()
     }
 }
